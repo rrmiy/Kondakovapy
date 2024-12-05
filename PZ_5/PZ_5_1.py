@@ -11,7 +11,7 @@ def vertical_line(word_length):
     print('|', ' ' * (word_length + 2), '|', sep='')
 
 def word_in_frame(word):
-    #Функция для заключения слова в рамку.
+    #Функция для заключения слова в рамку
     word_length = len(word) #возвращает длину
 
     # Рисуем верхнюю линию рамки
